@@ -1,5 +1,5 @@
 # Statistical-Language-Model
-For making Statical language model from training data. 統計的言語モデルを作成します．
+統計的言語モデルを作成します．
 
 # 概要
 (1) ngram モデルの推定<br>
