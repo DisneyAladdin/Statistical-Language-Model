@@ -22,6 +22,11 @@
 評価用のテキストとして、夏目漱石「こころ」より抜粋した文集合(ファイル:kokoro.num)を用いる。neko.num と同様に、neko.dic に従って、各単語は数値に変換されている。ただし、neko.dic にない 単語については、数値「0」で表現されている。
 
 # ライセンス
+CopyRight (c) 2018 Shuto Kawabata
+
+Released under the MIT licence
+
+https://opensource.org/licenses/MIT
 
 # 作成者
 Shuto kawabata
