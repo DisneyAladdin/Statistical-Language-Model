@@ -18,3 +18,10 @@ For making Statical language model from training data. 統計的言語モデル�
 と 28)の直後に出現する単語の確率を neko.num に出現するすべての単語(13,938 種類)に対して推定せよ。
 
 # 評価
+評価用テストセット:kokoro.num<br>
+評価用のテキストとして、夏目漱石「こころ」より抜粋した文集合(ファイル:kokoro.num)を用いる。neko.num と同様に、neko.dic に従って、各単語は数値に変換されている。ただし、neko.dic にない 単語については、数値「0」で表現されている。
+
+# ライセンス
+
+# 作成者
+Shuto kawabata
