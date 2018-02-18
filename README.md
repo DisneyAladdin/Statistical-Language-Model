@@ -24,6 +24,16 @@
 評価用テストセット:kokoro.num<br>
 評価用のテキストとして、夏目漱石「こころ」より抜粋した文集合(ファイル:kokoro.num)を用いる。neko.num と同様に、neko.dic に従って、各単語は数値に変換されている。ただし、neko.dic にない 単語については、数値「0」で表現されている。
 
+[実行方法]
+python kadai.py (モデル生成)
+
+% cc pp.c -o pp -lm (評価用プログラムのコンパイル）
+<br> 
+./pp bigram.model -bi 28 < kokoro.num (bigram.modelを評価)
+<br>
+./pp trigram.model -tri 24 28 < kokoro.num (trigram.modelを評価)
+
+
 # ライセンス
 CopyRight (c) 2018 Shuto Kawabata
 
